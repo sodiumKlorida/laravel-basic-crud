@@ -29,3 +29,7 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 ```bash
 git clone https://github.com/username/laravel-basic-crud-user.git
 cd laravel-basic-crud-user
+
+### 2. Install Depedency
+```bash
+laravel new basic-crud
