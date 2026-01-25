@@ -9,15 +9,16 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 - CRUD User (Create, Read, Update, Delete)
 - Role User (`admin`, `user`)
 - Validation form
+- Search User
 - Seeder data user
 - Struktur Laravel standar
 
 ---
 
 ## 🧰 Teknologi
-- Laravel 10 / 11 / 12
-- PHP >= 8.1
-- MySQL / MariaDB
+- Laravel 12
+- PHP >= 8.2
+- MySQL
 - Composer
 
 ---
