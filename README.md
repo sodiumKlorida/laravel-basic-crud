@@ -43,7 +43,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### 4 🛠️ Migration & Seeder
+### 4 Migration & Seeder
 ```bash
 php artisan migrate:fresh --seed
 ```
