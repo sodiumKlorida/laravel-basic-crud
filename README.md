@@ -29,7 +29,24 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 ```bash
 git clone https://github.com/username/laravel-basic-crud-user.git
 cd laravel-basic-crud-user
+```
 
 ### 2. Install Depedency
 ```bash
-laravel new basic-crud
+composer intall
+```
+
+### 3 Konfigurasi Database
+```bash
+DB_DATABASE=laravel_crud
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 4 🛠️ Migration & Seeder
+```bash
+php artisan migrate:fresh --seed
+```
+Seeder akan membuat:
+- User Admin
+- User Biasa
