@@ -39,7 +39,7 @@ cd laravel-basic-crud
 composer install
 ```
 tunggu hingga selesai
-![result composer install](resources/assets/readmeTutor/image.png)
+![result composer install](assets/readmeTutor/image.png)
 
 Buat file .env baru
 ```bash
