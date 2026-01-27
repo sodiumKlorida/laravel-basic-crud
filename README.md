@@ -40,7 +40,11 @@ composer install
 ```
 tunggu hingga selesai
 
+<<<<<<< HEAD
 ![result composer install](assets/readmeTutor/resultComposer.png)
+=======
+![result composer install](assets/readmeTutor/image.png)
+>>>>>>> 45af9d4c35cc19c93e5e5d641dce0102f88f423e
 
 Buat file .env baru
 ```bash
