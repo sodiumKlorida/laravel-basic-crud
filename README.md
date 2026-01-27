@@ -40,7 +40,7 @@ composer intall
 ```
 
 ### 3 Konfigurasi Database
-buka file env lalu modifikasi kode seperti ini
+buka file .env lalu modifikasi kode seperti ini
 ```bash
 DB_DATABASE= (nama database kamu)
 DB_USERNAME=root
