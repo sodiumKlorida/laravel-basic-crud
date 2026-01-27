@@ -27,7 +27,7 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 
 ### 1. Clone Repository
 ```bash
-https://github.com/sodiumKlorida/laravel-basic-crud.git
+git clone https://github.com/sodiumKlorida/laravel-basic-crud.git
 ```
 Setelah melakukan clone, masuk directory dengan cara
 ```bash
@@ -36,12 +36,24 @@ cd laravel-basic-crud
 
 ### 2. Install Depedency
 ```bash
-composer intall
+composer install
+```
+tunggu hingga selesai
+![result composer install](resources/assets/readmeTutor/image.png)
+
+Buat file .env baru
+```bash
+cp .env.example .env
+```
+Lalu generate key baru
+```bash
+php artisan key:generate
 ```
 
 ### 3 Konfigurasi Database
 buka file .env lalu modifikasi kode seperti ini
 ```bash
+DB_CONNECTION=mysql
 DB_DATABASE= (nama database kamu)
 DB_USERNAME=root
 DB_PASSWORD=
