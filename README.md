@@ -20,6 +20,7 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 - PHP >= 8.2
 - MySQL
 - Composer
+- Postman
 
 ---
 
@@ -40,11 +41,7 @@ composer install
 ```
 tunggu hingga selesai
 
-<<<<<<< HEAD
 ![result composer install](assets/readmeTutor/resultComposer.png)
-=======
-![result composer install](assets/readmeTutor/image.png)
->>>>>>> 45af9d4c35cc19c93e5e5d641dce0102f88f423e
 
 Buat file .env baru
 ```bash
@@ -72,3 +69,9 @@ Seeder akan membuat:
 - User Admin
 - User Biasa
 ![result db seed](assets/readmeTutor/dbSeed.png)
+
+## 📃 Endpoint API
+Cek route terlebih dahulu
+```bash
+php artisan route:list
+```
