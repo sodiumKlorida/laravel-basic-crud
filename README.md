@@ -68,6 +68,7 @@ php artisan migrate:fresh --seed
 Seeder akan membuat:
 - User Admin
 - User Biasa
+  
 ![result db seed](assets/readmeTutor/dbSeed.png)
 
 ---
