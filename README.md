@@ -70,6 +70,8 @@ Seeder akan membuat:
 - User Biasa
 ![result db seed](assets/readmeTutor/dbSeed.png)
 
+---
+
 ## 📃 Endpoint API
 Cek route terlebih dahulu
 ```bash
