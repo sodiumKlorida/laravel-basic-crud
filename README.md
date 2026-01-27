@@ -39,7 +39,8 @@ cd laravel-basic-crud
 composer install
 ```
 tunggu hingga selesai
-![result composer install](assets/readmeTutor/image.png)
+
+![result composer install](assets/readmeTutor/resultComposer.png)
 
 Buat file .env baru
 ```bash
@@ -66,3 +67,4 @@ php artisan migrate:fresh --seed
 Seeder akan membuat:
 - User Admin
 - User Biasa
+![result db seed](assets/readmeTutor/dbSeed.png)
