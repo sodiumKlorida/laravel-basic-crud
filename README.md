@@ -27,8 +27,11 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/laravel-basic-crud-user.git
-cd laravel-basic-crud-user
+https://github.com/sodiumKlorida/laravel-basic-crud.git
+```
+Setelah melakukan clone, masuc directory dengan cara
+```bash
+cd laravel-basic-crud
 ```
 
 ### 2. Install Depedency
