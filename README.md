@@ -29,7 +29,7 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 ```bash
 https://github.com/sodiumKlorida/laravel-basic-crud.git
 ```
-Setelah melakukan clone, masuc directory dengan cara
+Setelah melakukan clone, masuk directory dengan cara
 ```bash
 cd laravel-basic-crud
 ```
