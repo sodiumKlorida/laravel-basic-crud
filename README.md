@@ -8,7 +8,6 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 ## 🚀 Fitur
 - CRUD User (Create, Read, Update, Delete)
 - Role User (`admin`, `user`)
-- Validation form
 - Search User
 - Seeder data user
 - Struktur Laravel standar
@@ -114,7 +113,7 @@ Setting header terlebih dahulu
 
 ![result route:list](assets/readmeTutor/settingHeader.png)
 
-Setelah menyetting header perdi ke body lalu :
+Setelah menyetting header pergi ke body lalu :
 
 body->raw->ubah text menjadi JSON
 Input data baru seperti ini
@@ -129,4 +128,29 @@ Input data baru seperti ini
 Maka akan terlihat seperti ini
 
 ![result route:list](assets/readmeTutor/examplePostmanPost.png)
+
+### 5 Update Data User by Id
+Endpoint put untuk edit data user
+```bash
+http://127.0.0.1:8000/api/users/4
+```
+Setting header terlebih dahulu
+
+![result route:list](assets/readmeTutor/resultPut.png)
+
+Setelah menyetting header pergi ke body lalu :
+
+body->raw->ubah text menjadi JSON
+Update data sebelumnya yang telah di buat, seperti ini
+```bash
+{
+	"name" : "broEdit",
+    "email": "email@email.com",
+    "password": "password",
+    "role" : "admin"
+}
+```
+Maka akan terlihat seperti ini
+
+![result route:list](assets/readmeTutor/settingHeaderPut.png)
 
