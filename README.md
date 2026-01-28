@@ -68,15 +68,26 @@ php artisan migrate:fresh --seed
 Seeder akan membuat:
 - User Admin
 - User Biasa
-  
+
 ![result db seed](assets/readmeTutor/dbSeed.png)
+
+### 5 Jalankan Laravel
+```bash
+php artisan serve
+```
 
 ---
 
 ## 📃 Endpoint API
-Cek route terlebih dahulu
+### 1 Cek route terlebih dahulu
 ```bash
 php artisan route:list
 ```
 
 ![result route:list](assets/readmeTutor/routeList.png)
+
+### 2 Get Data User
+Endpoint get all data user
+```bash
+http://127.0.0.1:8000/api/users
+```
