@@ -136,7 +136,7 @@ http://127.0.0.1:8000/api/users/4
 ```
 Setting header terlebih dahulu
 
-![result route:list](assets/readmeTutor/resultPut.png)
+![result route:list](assets/readmeTutor/settingHeaderPut.png)
 
 Setelah menyetting header pergi ke body lalu :
 
@@ -152,5 +152,5 @@ Update data sebelumnya yang telah di buat, seperti ini
 ```
 Maka akan terlihat seperti ini
 
-![result route:list](assets/readmeTutor/settingHeaderPut.png)
+![result route:list](assets/readmeTutor/resultPut.png)
 
