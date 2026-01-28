@@ -79,7 +79,7 @@ php artisan serve
 ---
 
 ## 📃 Endpoint API
-### 1 Cek route terlebih dahulu
+### 1 Cek Route Terlebih Dahulu
 ```bash
 php artisan route:list
 ```
