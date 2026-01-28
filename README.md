@@ -91,3 +91,6 @@ Endpoint get all data user
 ```bash
 http://127.0.0.1:8000/api/users
 ```
+Uji coba pada postman
+
+![result route:list](assets/readmeTutor/resultAlluser.png)
