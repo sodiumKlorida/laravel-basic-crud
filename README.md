@@ -154,3 +154,12 @@ Maka akan terlihat seperti ini
 
 ![result route:list](assets/readmeTutor/resultPut.png)
 
+### 6 Delete Data User
+Endpoint delete data user by id
+```bash
+http://127.0.0.1:8000/api/users/4
+```
+Uji coba pada delete pada postman 
+
+![result route:list](assets/readmeTutor/resultDelete.png)
+
