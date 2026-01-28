@@ -114,6 +114,9 @@ Seting header terlebih dahulu
 
 ![result route:list](assets/readmeTutor/settingHeader.png)
 
+Setelah menyetting header perdi ke body lalu :
+
+body->raw->ubah text menjadi JSON
 Input data baru seperti ini
 ```bash
 {
@@ -123,10 +126,6 @@ Input data baru seperti ini
     "role" : "admin"
 }
 ```
-Setelah menyetting header perdi ke body lalu :
-
-body->raw->ubah text menjadi JSON
-
 Maka akan terlihat seperti ini
 
 ![result route:list](assets/readmeTutor/examplePostmanPost.png)
