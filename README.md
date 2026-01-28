@@ -110,7 +110,7 @@ Endpoint post untuk data user baru
 ```bash
 http://127.0.0.1:8000/api/users
 ```
-Seting header terlebih dahulu
+Setting header terlebih dahulu
 
 ![result route:list](assets/readmeTutor/settingHeader.png)
 
