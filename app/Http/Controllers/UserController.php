@@ -19,6 +19,17 @@ class UserController extends Controller
         ],200);
     }
 
+    public function search($id)
+    {
+        $user = User::findOrFail($id);
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Data user',
+            'data' => $user
+        ],200);
+    }
+
     public function store(Request $request)
     {
 
@@ -57,7 +68,7 @@ class UserController extends Controller
         ], 200);
     }
 
-    public function delete(Request $request, $id)
+    public function delete($id)
     {
         $user = User::findOrFail($id);
 
