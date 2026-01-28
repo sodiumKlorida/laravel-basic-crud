@@ -97,10 +97,33 @@ Uji coba pada postman
 ![result route:list](assets/readmeTutor/resultAlluser.png)
 
 ### 3 Seach Data by Id User
-Endpoint get all data user
+Endpoint get data user by id
 ```bash
 http://127.0.0.1:8000/api/users/1
 ```
 Uji coba pada postman
 
 ![result route:list](assets/readmeTutor/resultSearch.png)
+
+### 4 Input New Data User
+Endpoint post untuk data user baru
+```bash
+http://127.0.0.1:8000/api/users
+```
+Seting header terlebih dahulu
+
+![result route:list](assets/readmeTutor/settingHeader.png)
+
+Input data baru seperti ini
+```bash
+{
+	"name" : "bro",
+    "email": "email@email.com",
+    "password": "password",
+    "role" : "admin"
+}
+```
+Maka akan terlihat seperti ini
+
+![result route:list](assets/readmeTutor/examplePostmanPost.png)
+
