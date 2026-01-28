@@ -124,7 +124,9 @@ Input data baru seperti ini
 }
 ```
 Setelah menyetting header perdi ke body lalu :
+
 body->raw->ubah text menjadi JSON
+
 Maka akan terlihat seperti ini
 
 ![result route:list](assets/readmeTutor/examplePostmanPost.png)
