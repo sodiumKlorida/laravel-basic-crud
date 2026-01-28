@@ -78,3 +78,5 @@ Cek route terlebih dahulu
 ```bash
 php artisan route:list
 ```
+
+![result route:list](assets/readmeTutor/routeList.png)
