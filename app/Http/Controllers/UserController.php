@@ -16,12 +16,11 @@ class UserController extends Controller
             'success' => true,
             'message' => 'Data user',
             'data' => $users
-        ]);
+        ],200);
     }
 
     public function store(Request $request)
     {
-        // dd($request->all());
 
         $user = User::create([
             'name'     => $request->name,
@@ -33,6 +32,41 @@ class UserController extends Controller
         return response()->json([
             'success' => true,
             'data' => $user
-        ], 201);
+        ], 200);
+    }
+
+    public function update(Request $request, $id)
+    {
+        $user = User::findOrFail($id);
+
+        $user->update([
+            'name'  => $request->name,
+            'email' => $request->email,
+            'role'  => $request->role,
+        ]);
+
+        if ($request->password) {
+            $user->password = Hash::make($request->password);
+            $user->save();
+        }
+
+        return response()->json([
+            'success' => true,
+            'massage' => 'data alredy updated',
+            'data' => $user
+        ], 200);
+    }
+
+    public function delete(Request $request, $id)
+    {
+        $user = User::findOrFail($id);
+
+        $user->delete();
+
+        return response()->json([
+            'success' => true,
+            'massage' => 'user alredy deleted',
+            'data' => $user
+        ], 200);
     }
 }
