@@ -18,7 +18,7 @@ Cocok untuk pembelajaran dasar Laravel seperti **migration, model, seeder, contr
 ## 🧰 Teknologi
 - Laravel 12
 - PHP >= 8.2
-- MySQL
+- MySQL (xampp)
 - Composer
 - Postman
 
@@ -62,6 +62,7 @@ DB_PASSWORD=
 ```
 
 ### 4 Migration & Seeder
+Jangan lupa untuk menyalakan database server xampp/laragon
 ```bash
 php artisan migrate:fresh --seed
 ```
